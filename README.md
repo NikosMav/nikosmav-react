@@ -1,12 +1,33 @@
-# React + Vite
+# Nikos Mavridis – Personal Website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo contains the source code for my personal website, rebuilt with **React 18** and **Vite**. The site started life as a single‑page vanilla‑HTML project; migrating to Vite + React gives me reusable components, lightning‑fast HMR during development, and a one‑click GitHub Pages deploy.
 
-Currently, two official plugins are available:
+## Local development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev           # Vite dev server with Hot‑Module Reload
+```
 
-## Expanding the ESLint configuration
+## Production build & preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run build         # outputs static files to /dist
+npm run preview       # serves the production build locally
+```
+
+## Continuous deployment
+
+A GitHub Actions workflow (`.github/workflows/deploy.yml`) builds the site and publishes `dist/` to **GitHub Pages** on every push to `main`.
+
+▶ Live site: [https://nikosmav.github.io/nikosmav-react/](https://nikosmav.github.io/nikosmav-react/)
+
+---
+
+### Stack
+
+- **React 18** – UI components
+- **Vite** – dev server & bundler
+- **ESLint** – default React/Vite rules
+
+Feel free to open an issue or PR! 🚀
