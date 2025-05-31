@@ -1,4 +1,4 @@
-# Nikos Mavridis – Personal Website (React + Vite)
+# Nikos Mavrapidis – Personal Website (React + Vite)
 
 This repo contains the source code for my personal website, rebuilt with **React 18** and **Vite**. The site started life as a single‑page vanilla‑HTML project; migrating to Vite + React gives me reusable components, lightning‑fast HMR during development, and a one‑click GitHub Pages deploy.
 
@@ -29,5 +29,3 @@ A GitHub Actions workflow (`.github/workflows/deploy.yml`) builds the site and 
 - **React 18** – UI components
 - **Vite** – dev server & bundler
 - **ESLint** – default React/Vite rules
-
-Feel free to open an issue or PR! 🚀
