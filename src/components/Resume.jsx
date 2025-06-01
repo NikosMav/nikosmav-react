@@ -113,7 +113,7 @@ const Resume = ({ className }) => {
                     <h5 className="h5 timeline-item-subtitle">
                       Bachelor of Science in Informatics and Computer Science
                     </h5>
-                    <span>2018 — 2023</span>
+                    <span>2017 — 2022</span>
                     <div style={{ display: visibleDetails['education'] ? 'block' : 'none' }}>
                       <p className="timeline-text">
                         <strong>Transformative Education:</strong>{' '}My journey at
@@ -307,7 +307,7 @@ const Resume = ({ className }) => {
 
                 <h5 className="h5 timeline-item-subtitle">Cisco</h5>
 
-                <span>Enrolled Apr 2024 — Present</span>
+                <span>Enrolled Apr 2025 — Present</span>
                 </div>
             </div>
             </li>
@@ -334,7 +334,7 @@ const Resume = ({ className }) => {
 
                 <h5 className="h5 timeline-item-subtitle">IBM</h5>
 
-                <span>Enrolled&nbsp;Apr&nbsp;2025 — Present</span>
+                <span>Enrolled Apr 2025 — Present</span>
                 <p className="timeline-text">
                     Program Record ID 57e4cbf46b8a4cd2a164380453d5c424
                 </p>
@@ -442,6 +442,31 @@ const Resume = ({ className }) => {
         </div>
 
         <ol className="timeline-list">
+          <li className="timeline-item">
+            <div className="timeline-item-content">
+                <img
+                className="timeline-item-image"
+                src="assets/images/scrimba_logo.jpg"
+                alt="Scrimba Logo"
+                />
+                <div className="text-content">
+                <h4 className="h4 timeline-item-title">
+                    <a
+                    href="https://scrimba.com/certificate-cert2ffentAFN4JENbSKHeZufvLD6a5ojyNw82iYfDfDD7aiMF"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="university-link"
+                    >
+                    Intro to Vite
+                    </a>
+                </h4>
+
+                <h5 className="h5 timeline-item-subtitle">Scrimba</h5>
+
+                <span>Jun 2025</span>
+                </div>
+            </div>
+            </li>
             <li className="timeline-item">
             <div className="timeline-item-content">
                 <img
@@ -463,7 +488,7 @@ const Resume = ({ className }) => {
 
                 <h5 className="h5 timeline-item-subtitle">Scrimba</h5>
 
-                <span>Apr 2024</span>
+                <span>May 2025</span>
                 </div>
             </div>
             </li>
@@ -489,7 +514,7 @@ const Resume = ({ className }) => {
 
                 <h5 className="h5 timeline-item-subtitle">Scrimba</h5>
 
-                <span>Apr 2024</span>
+                <span>May 2025</span>
                 </div>
             </div>
             </li>
