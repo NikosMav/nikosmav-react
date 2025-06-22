@@ -8,6 +8,7 @@ const SkillMatrix = () => {
       skills: [
         { name: "C/C++", level: 5 },
         { name: "Python", level: 4 },
+        { name: "Java", level: 4 },
         { name: "Bash", level: 4 },
         { name: "JavaScript", level: 3 },
         { name: "HTML/CSS", level: 3 }
@@ -16,7 +17,10 @@ const SkillMatrix = () => {
     {
       title: "Frameworks/Tools",
       skills: [
+        { name: "Spring Framework", level: 4 },
+        { name: "Spring Boot", level: 4 },
         { name: "React", level: 4 },
+        { name: "Jenkins", level: 3 },
         { name: "Docker", level: 3 },
         { name: "GitLab CI", level: 4 },
         { name: "Node.js", level: 3 },

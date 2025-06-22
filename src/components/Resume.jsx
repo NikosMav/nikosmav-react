@@ -41,41 +41,80 @@ const Resume = ({ className }) => {
                         rel="noopener noreferrer"
                         className="university-link"
                       >
-                        Software Engineer
+                        Software Engineer - Industrial Printing Systems
                       </a>
                     </h4>
                     <h5 className="h5 timeline-item-subtitle">
                       Software Competitiveness International S.A.
                     </h5>
-                    <span>Dec 2023 — Present</span>
-                    <div style={{ display: visibleDetails['experience'] ? 'block' : 'none' }}>
+                    <span>Jun 2025 — Present</span>
+                    <div style={{ display: visibleDetails['experience-current'] ? 'block' : 'none' }}>
                       <p className="timeline-text">
-                        Currently, I am working as a{' '}
-                        <strong>Software Engineer</strong>{' '}at{' '}
+                        Currently working as a{' '}
+                        <strong>Software Engineer</strong>{' '}specializing in{' '}
+                        <strong>Industrial Printing Systems</strong>{' '}at{' '}
                         <strong>Software Competitiveness International S.A.</strong>{' '}
                         in Marousi, Attiki, Greece. In this role, I design,
                         develop, and optimize high-performance software
-                        solutions that enhance our company's competitiveness in
-                        the global market.
-                      </p>
-                      <p className="timeline-text">
-                        I specialize in maintaining and enhancing{' '}
-                        <strong>Linux-based software</strong>{' '}for a major
-                        telecommunications client, leveraging a diverse tech
-                        stack that includes{' '}
-                        <strong>C/C++, Scala, Bash, Python</strong>, and{' '}
-                        <strong>Git</strong>. I also employ advanced tools like{' '}
-                        <strong>Spirent</strong>{' '}to rigorously test and validate
-                        the performance of our networking solutions, while
-                        continuously expanding my expertise in emerging
-                        protocols, unit testing, and automation.
+                        solutions for industrial printing applications.
                       </p>
                     </div>
                     <button
-                      onClick={() => toggleDetails('experience')}
+                      onClick={() => toggleDetails('experience-current')}
                       className="details-button"
                     >
-                      {visibleDetails['experience'] ? 'Show Less' : 'Show More'}
+                      {visibleDetails['experience-current'] ? 'Show Less' : 'Show More'}
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li className="timeline-item">
+                <div className="timeline-item-content">
+                  <img
+                    className="timeline-item-image"
+                    src="assets/images/softcom_logo.jpg"
+                    alt="Software Competitiveness International Logo"
+                  />
+                  <div className="text-content">
+                    <h4 className="h4 timeline-item-title">
+                      <a
+                        href="https://www.softcom-int.com/el/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="university-link"
+                      >
+                        Software Engineer - Telecommunications Industry
+                      </a>
+                    </h4>
+                    <h5 className="h5 timeline-item-subtitle">
+                      Software Competitiveness International S.A.
+                    </h5>
+                    <span>Dec 2023 — Jun 2025 · 1 yr 7 mos</span>
+                    <div style={{ display: visibleDetails['experience-telecom'] ? 'block' : 'none' }}>
+                      <ul className="timeline-text">
+                        <li>
+                          Developed high performance Linux-based network software for a major telecom client.
+                        </li>
+                        <li>
+                          Exposed to the full SW development lifecycle, from system requirements analysis and feature development to bug fixing, test planning, as well as product maintenance and hardening.
+                        </li>
+                        <li>
+                          Skilled at reverse engineering in 3rd-party code to resolve compatibility gaps and add new functionality and features, while delivering quality work on time and within scope.
+                        </li>
+                        <li>
+                          Experienced with networking tools for performance testing and protocol analysis, as well as configuring unit and automated tests.
+                        </li>
+                        <li>
+                          Contributed to the development of a feature enabling hitless software upgrades (version updates with no traffic interruption). This reduced service outages from hundreds of milliseconds to zero (hitless), significantly enhancing system availability.
+                        </li>
+                      </ul>
+                    </div>
+                    <button
+                      onClick={() => toggleDetails('experience-telecom')}
+                      className="details-button"
+                    >
+                      {visibleDetails['experience-telecom'] ? 'Show Less' : 'Show More'}
                     </button>
                   </div>
                 </div>
@@ -442,6 +481,32 @@ const Resume = ({ className }) => {
         </div>
 
         <ol className="timeline-list">
+          <li className="timeline-item">
+            <div className="timeline-item-content">
+                <img
+                className="timeline-item-image"
+                src="assets/images/scrimba_logo.jpg"
+                alt="Scrimba Logo"
+                />
+                <div className="text-content">
+                <h4 className="h4 timeline-item-title">
+                    <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="university-link"
+                    >
+                    Advanced JavaScript
+                    </a>
+                </h4>
+
+                <h5 className="h5 timeline-item-subtitle">Scrimba</h5>
+
+                <span>Jun 2025</span>
+                </div>
+            </div>
+            </li>
+            
           <li className="timeline-item">
             <div className="timeline-item-content">
                 <img

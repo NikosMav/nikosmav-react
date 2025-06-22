@@ -23,6 +23,14 @@ const Portfolio = ({ className }) => {
   const projects = [
     {
       id: 1,
+      title: "code2pdf",
+      category: "Software development",
+      imageUrl: "./assets/images/Python-logo.png",
+      link: "https://github.com/NikosMav/code2pdf",
+      alt: "code2pdf CLI Tool"
+    },
+    {
+      id: 2,
       title: "Worthify",
       category: "Web development",
       imageUrl: "./assets/images/worthify.png",
@@ -30,7 +38,7 @@ const Portfolio = ({ className }) => {
       alt: "Worthify"
     },
     {
-      id: 2,
+      id: 3,
       title: "Contact form app using React",
       category: "Web development",
       imageUrl: "./assets/images/react-logo.png",
@@ -38,7 +46,7 @@ const Portfolio = ({ className }) => {
       alt: "React App"
     },
     {
-      id: 3,
+      id: 4,
       title: "Camelia Wellness Center",
       category: "Web development",
       imageUrl: "./assets/images/camelia.png",
@@ -46,7 +54,7 @@ const Portfolio = ({ className }) => {
       alt: "Camelia"
     },
     {
-      id: 4,
+      id: 5,
       title: "Ubiquitous Computing",
       category: "Web development",
       imageUrl: "./assets/images/ubicomp.png",
@@ -54,7 +62,7 @@ const Portfolio = ({ className }) => {
       alt: "Ubicomp"
     },
     {
-      id: 5,
+      id: 6,
       title: "Netflix movies and series",
       category: "Data analysis",
       imageUrl: "./assets/images/netflix.jpg",
@@ -62,7 +70,7 @@ const Portfolio = ({ className }) => {
       alt: "Netflix"
     },
     {
-      id: 6,
+      id: 7,
       title: "Fake news classification",
       category: "Data analysis",
       imageUrl: "./assets/images/fake-news.jpg",
@@ -70,7 +78,7 @@ const Portfolio = ({ className }) => {
       alt: "Fake News"
     },
     {
-      id: 7,
+      id: 8,
       title: "Compilers assignment",
       category: "Software development",
       imageUrl: "./assets/images/code.jpg",
@@ -78,7 +86,7 @@ const Portfolio = ({ className }) => {
       alt: "compilers"
     },
     {
-      id: 8,
+      id: 9,
       title: "Compilers assignment",
       category: "Software development",
       imageUrl: "./assets/images/code.jpg",
@@ -86,7 +94,7 @@ const Portfolio = ({ className }) => {
       alt: "compilers"
     },
     {
-      id: 9,
+      id: 10,
       title: "System programming assignment",
       category: "Software development",
       imageUrl: "./assets/images/code.jpg",
@@ -94,7 +102,7 @@ const Portfolio = ({ className }) => {
       alt: "system programming"
     },
     {
-      id: 10,
+      id: 11,
       title: "System programming assignment",
       category: "Software development",
       imageUrl: "./assets/images/code.jpg",
@@ -102,7 +110,7 @@ const Portfolio = ({ className }) => {
       alt: "system programming"
     },
     {
-      id: 11,
+      id: 12,
       title: "Operating systems assignment",
       category: "Software development",
       imageUrl: "./assets/images/code.jpg",
@@ -110,7 +118,7 @@ const Portfolio = ({ className }) => {
       alt: "operating systems"
     },
     {
-      id: 12,
+      id: 13,
       title: "Greek Ministry of Labour website",
       category: "Web development",
       imageUrl: "./assets/images/upourgio.png",

@@ -16,47 +16,32 @@ const About = ({ className }) => {
       <section className="about-text">
         <ul>
           <li>
-            I am a recent graduate with a{' '}
-            <strong>Bachelor of Science in Informatics & Computer Science</strong>{' '}
-            from the{' '}<strong>National Kapodistrian University of Athens</strong>,
-            where I built a solid foundation in computer science and
-            software development.
+            <strong>Software Engineer</strong> with a Bachelor of Science in Informatics & Computer Science from the{' '}
+            <strong>National Kapodistrian University of Athens</strong>, currently specializing in{' '}
+            <strong>Industrial Printing Systems</strong> at{' '}
+            <strong>Software Competitiveness International S.A.</strong>
           </li>
           <li>
-            Currently employed as a{' '}<strong>Software Engineer</strong>{' '}at{' '}
-            <strong>Software Competitiveness International S.A.</strong>,
-            designing, developing and optimizing high-performance
-            Linux-based software solutions for a major telecommunications
-            client.
+            Proven experience across diverse domains: from developing high-performance{' '}
+            <strong>Linux-based network software</strong> for telecommunications to designing{' '}
+            <strong>enterprise-grade industrial printing solutions</strong>.
           </li>
           <li>
-            Technical toolkit:{' '}
-            <strong>C/C++, Python, Scala, Bash, Git</strong>, with daily use
-            of GitLab and Jira for agile collaboration and project tracking.
+            Technical expertise spans{' '}
+            <strong>C/C++, Java, Python, Spring Framework, Spring Boot</strong>, with hands-on experience in{' '}
+            <strong>Jenkins, GitLab CI/CD, networking protocols,</strong> and automated testing frameworks.
           </li>
           <li>
-            Hands-on with networking tools such as{' '}
-            <strong>Spirent</strong>{' '}and{' '}<strong>Wireshark</strong>{' '}for
-            performance testing and protocol analysis; experienced in
-            writing unit and automated tests to guarantee robust software
-            quality.
+            Notable achievement: Contributed to developing{' '}
+            <strong>hitless software upgrade</strong> capabilities, eliminating service outages and significantly enhancing system availability.
           </li>
           <li>
-            Actively transitioning from networking to{' '}
-            <strong>cybersecurity</strong>; currently enrolled in the{' '}
-            <strong>IBM Cybersecurity Analyst Professional Certificate</strong>{' '}
-            to build skills in threat analysis, incident response, and
-            security operations.
+            Expanding expertise in{' '}<strong>cybersecurity</strong> through the{' '}
+            <strong>IBM Cybersecurity Analyst Professional Certificate</strong>, while maintaining active involvement in full-stack development.
           </li>
           <li>
-            Project highlight:{' '}<strong>Worthify</strong>{' '}— AI-driven car
-            valuation platform leveraging 200.000+ listings to reach 97%
-            price-prediction accuracy.
-          </li>
-          <li>
-            I value{' '}<strong>collaboration</strong>, continuous learning and
-            challenging opportunities that push technological boundaries in
-            software engineering, networking and cybersecurity.
+            Creator of{' '}<strong>Worthify</strong> — an AI-driven car valuation platform achieving{' '}
+            <strong>97% accuracy</strong> across 200,000+ vehicle listings.
           </li>
         </ul>
       </section>
