@@ -49,21 +49,93 @@ const About = ({ className }) => {
       <SkillMatrix />
 
       <section className="cv-section">
-        <h3 className="h3 cv-title">My Curriculum Vitae</h3>
-        <div className="cv-container">
-          <div className="cv-thumbnail">
-            <button onClick={openModal} className="cv-thumbnail-button">
-              <img src="assets/cv/cv-image.png" alt="CV Thumbnail" />
-            </button>
+        <div className="cv-header">
+          <h3 className="h3 cv-title">
+            <ion-icon name="document-text-outline"></ion-icon>
+            Professional Resume (old)
+          </h3>
+          <p className="cv-description">
+            Comprehensive overview of my professional journey, skills, and achievements
+          </p>
+        </div>
+
+        <div className="cv-showcase">
+          <div className="cv-preview-card">
+            <div className="cv-preview-wrapper">
+              <button onClick={openModal} className="cv-preview-button">
+                <div className="cv-thumbnail-container">
+                  <img src="assets/cv/CV-thumbnail.png" alt="Resume Preview" />
+                  <div className="cv-overlay">
+                    <div className="cv-overlay-content">
+                      <ion-icon name="eye-outline"></ion-icon>
+                      <span>Quick Preview</span>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+            
+            <div className="cv-info">
+              <h4 className="cv-info-title">Resume Highlights</h4>
+              <div className="cv-stats">
+                <div className="cv-stat-item">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                  <span>2+ Years Experience</span>
+                </div>
+                <div className="cv-stat-item">
+                  <ion-icon name="school-outline"></ion-icon>
+                  <span>CS Degree</span>
+                </div>
+                <div className="cv-stat-item">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                  <span>8+ Technologies</span>
+                </div>
+                <div className="cv-stat-item">
+                  <ion-icon name="trophy-outline"></ion-icon>
+                  <span>5+ Certifications</span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="cv-download">
+
+          <div className="cv-actions">
             <a
               href="assets/cv/Nikolaos-Mavrapidis-New-Resume.pdf"
               download
-              className="download-btn"
+              className="cv-action-btn primary"
             >
-              <ion-icon name="download-outline"></ion-icon>
-              <span>Download CV</span>
+              <div className="btn-icon">
+                <ion-icon name="download-outline"></ion-icon>
+              </div>
+              <div className="btn-content">
+                <span className="btn-title">Download PDF</span>
+                <span className="btn-subtitle">Ready to print</span>
+              </div>
+            </a>
+
+            <button onClick={openModal} className="cv-action-btn secondary">
+              <div className="btn-icon">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <div className="btn-content">
+                <span className="btn-title">View Online</span>
+                <span className="btn-subtitle">Quick preview</span>
+              </div>
+            </button>
+
+            <a
+              href="https://www.linkedin.com/in/nikolaos-mavrapidis"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cv-action-btn tertiary"
+            >
+              <div className="btn-icon">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+              <div className="btn-content">
+                <span className="btn-title">LinkedIn Profile</span>
+                <span className="btn-subtitle">Full details</span>
+              </div>
             </a>
           </div>
         </div>
@@ -86,33 +158,90 @@ const About = ({ className }) => {
       )}
 
       <section className="where-to-find-me">
-        <h3 className="h3 where-to-find-me-title">Where to Find Me</h3>
+        <h3 className="h3 where-to-find-me-title">Let's Connect</h3>
+        <p className="where-to-find-me-description">
+          Feel free to reach out and connect with me on these platforms
+        </p>
 
-        <ul className="where-to-find-me-list">
-          <li className="where-to-find-me-item">
+        <div className="social-connect-grid">
+          <div className="social-connect-card">
             <a
               href="https://www.linkedin.com/in/nikolaos-mavrapidis"
               target="_blank"
               rel="noopener noreferrer"
+              className="social-connect-link"
             >
-              <div className="image-container">
-                <img src="./assets/images/linkedin.jpg" alt="LinkedIn" />
+              <div className="social-icon-wrapper">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+              <div className="social-content">
+                <h4 className="social-platform">LinkedIn</h4>
+                <p className="social-description">Professional networking & career updates</p>
+              </div>
+              <div className="social-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
               </div>
             </a>
-          </li>
+          </div>
 
-          <li className="where-to-find-me-item">
+          <div className="social-connect-card">
             <a
               href="https://github.com/NikosMav"
               target="_blank"
               rel="noopener noreferrer"
+              className="social-connect-link"
             >
-              <div className="image-container">
-                <img src="./assets/images/github.png" alt="GitHub" />
+              <div className="social-icon-wrapper">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+              <div className="social-content">
+                <h4 className="social-platform">GitHub</h4>
+                <p className="social-description">Open source projects & code repositories</p>
+              </div>
+              <div className="social-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
               </div>
             </a>
-          </li>
-        </ul>
+          </div>
+
+          <div className="social-connect-card">
+            <a
+              href="mailto:mavrapidisnikolaos@gmail.com"
+              className="social-connect-link"
+            >
+              <div className="social-icon-wrapper">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div className="social-content">
+                <h4 className="social-platform">Email</h4>
+                <p className="social-description">Direct communication & inquiries</p>
+              </div>
+              <div className="social-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+            </a>
+          </div>
+
+          <div className="social-connect-card">
+            <a
+              href="https://pypi.org/user/NikosMav/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-connect-link"
+            >
+              <div className="social-icon-wrapper">
+                <ion-icon name="cube-outline"></ion-icon>
+              </div>
+              <div className="social-content">
+                <h4 className="social-platform">PyPI</h4>
+                <p className="social-description">Python packages & distributions</p>
+              </div>
+              <div className="social-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+            </a>
+          </div>
+        </div>
       </section>
     </article>
   );
